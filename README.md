@@ -5,14 +5,14 @@ These data files accompany our paper "Quantification of gas concentrations in NO
 #### Training data:
 concentrations_train.txt -> concentrations of the four gases in the training set. Column headings indicate gas type.
 
-voltages_train.txt -> voltage response from the four sensors to the gases in 'concentrations_train.txt' file.
+voltages_train.txt -> voltage response from the four sensors to the gases in 'concentrations_train.txt' file. Column headings indicate sensor type.
 
 training_labels.txt -> label of data in the previous two training files. Each label corresponds to a gas mixture type.
 
 #### Test data:
 concentrations_test.txt -> concentrations of the four gases in the test set. Column headings indicate gas type.
 
-voltages_test.txt -> voltage response from the four sensors to the gases in 'concentrations_test.txt' file.
+voltages_test.txt -> voltage response from the four sensors to the gases in 'concentrations_test.txt' file. Column headings indicate sensor type.
 
 test_labels.txt -> label of data in the previous two test data files. Each label corresponds to a gas mixture type.
 
